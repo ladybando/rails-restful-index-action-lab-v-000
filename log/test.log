@@ -978,6 +978,7 @@ Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+<<<<<<< HEAD
   [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-11-14 15:07:35.870880"], ["updated_at", "2018-11-14 15:07:35.870880"]]
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
@@ -1510,3 +1511,5 @@ Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.2ms)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-11-14 15:38:01.043135"], ["updated_at", "2018-11-14 15:38:01.043135"]]
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> d072e73044de7cddee5028f7b8ffbe736a78168c
